@@ -23,7 +23,7 @@ const Home: NextPage = () => {
         {/* Receipt Section */}
         <div>
           <div className="w-full grid grid-cols-12  ">
-            <div className="w-full  md:col-span-8  xl:col-span-9">
+            <div className="w-full col-span-12  md:col-span-8  xl:col-span-9">
               <div className="mb-14">
                 <BillingSection title="Order History" />
               </div>
@@ -33,16 +33,16 @@ const Home: NextPage = () => {
               </div>
             </div>
 
-            <div className="w-full md:col-span-4 xl:col-span-3">
+            <div className="md:w-full  col-span-5 md:col-span-4 xl:col-span-3">
               <SubscriptionCard />
             </div>
           </div>
 
           {/* Bottom section of page */}
-          <div className=" w-[90%] xl:w-full mt-9">
+          <div className="w-full  md:w-[90%] xl:w-full mt-9">
             <BillingSection title="Payment Method" />
 
-            <div className="flex justify-between items-center w-[70%] mt-4 ml-6">
+            <div className="flex justify-between items-center w-[90%] md:w-[70%] mt-4 ml-6">
               <div className="flex items-center gap-8">
                 <div>
                   <Button>
