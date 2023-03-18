@@ -24,6 +24,9 @@ module.exports = {
         borderColor: "#CBCBD9",
         receiptshadowColor: "rgb(223, 223, 253, 0.6)",
       },
+      boxShadow: {
+        "3xl": " 0px 8px 19px rgba(223, 223, 253, 0.6)",
+      },
     },
   },
   plugins: [],
