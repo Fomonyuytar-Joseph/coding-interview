@@ -23,22 +23,22 @@ const Home: NextPage = () => {
         {/* Receipt Section */}
         <div>
           <div className="w-full grid grid-cols-12  ">
-            <div className="w-full    col-span-9">
+            <div className="w-full  md:col-span-8  xl:col-span-9">
               <div className="mb-14">
                 <BillingSection title="Order History" />
               </div>
 
-              <div className="w-[89%] ">
+              <div className=" md:[70%]   lg:w-[88%]  xl:w-[92%] ">
                 <ReceiptTable />
               </div>
             </div>
 
-            <div className="w-full col-span-3">
+            <div className="w-full md:col-span-4 xl:col-span-3">
               <SubscriptionCard />
             </div>
           </div>
 
-    {/* Bottom section of page */}
+          {/* Bottom section of page */}
           <div className=" w-[90%] mt-9">
             <BillingSection title="Payment Method" />
 

@@ -2,7 +2,7 @@ import React from "react";
 
 const ReceiptHeading = () => {
   return (
-    <div className="grid grid-cols-12 gap-[80px]  text-[14px] text-lightGray font-medium mb-3  ">
+    <div className="grid grid-cols-12 lg:gap-[25px] xl:gap-[60px] xxl:gap-[80px]  text-[14px] text-lightGray font-medium mb-3  ">
       <div className="col-span-4 ml-6 ">
         <h3>Date</h3>
       </div>
