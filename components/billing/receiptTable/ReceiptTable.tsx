@@ -28,7 +28,7 @@ const ReceiptTable = () => {
 
       {
         ReceiptInfos.map((ReceiptInfo,index)=>(
-            <ReceiptDataRows date={ReceiptInfo.date} type={ReceiptInfo.type}/>
+            <ReceiptDataRows key={index} date={ReceiptInfo.date} type={ReceiptInfo.type}/>
         ))
       }
 
