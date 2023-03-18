@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import BillingSection from "../components/billing/BillingSection";
 import SubscriptionCard from "../components/billing/card/SubscriptionCard";
+import ReceiptTable from "../components/billing/receiptTable/ReceiptTable";
 import Button from "../components/buttons/Button";
 import styles from "../styles/Home.module.css";
 
@@ -21,10 +22,27 @@ const Home: NextPage = () => {
         </div>
 
         <div className="">
-          <div className=" w-[90%]">
+          <div className="w-full grid grid-cols-12  ">
+            <div className="w-full    col-span-9">
+              <div className="mb-14">
+                <BillingSection title="Order History" />
+              </div>
+
+              <div className="w-[85%] ">
+                <ReceiptTable />
+              </div>
+              
+            </div>
+
+            <div className="w-full col-span-3">
+              <SubscriptionCard />
+            </div>
+          </div>
+
+          <div className=" w-[90%] mt-9">
             <BillingSection title="Payment Method" />
 
-            <div className="flex justify-between items-center w-[70%] mt-8">
+            <div className="flex justify-between items-center w-[70%] mt-4">
               <div className="flex items-center gap-8">
                 <div>
                   <Button>
