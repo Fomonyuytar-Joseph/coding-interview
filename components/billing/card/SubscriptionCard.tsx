@@ -3,7 +3,7 @@ import CancelButton from '../../buttons/CancelButton';
 
 const SubscriptionCard = () => {
   return (
-    <div className="flex flex-col justify-between w-[258px] h-[221px] py-6 px-6 bg-primary rounded-[16px] text-white">
+    <div className="flex flex-col justify-between w-[258px] h-[221px] py-6 px-6 bg-primary rounded-[16px] text-white hover:bg-black">
       <div className="text-[16px] ">
         <p>Your Plan</p>
       </div>

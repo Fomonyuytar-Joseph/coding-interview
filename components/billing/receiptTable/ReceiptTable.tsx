@@ -32,7 +32,7 @@ const ReceiptTable = () => {
         ))
       }
 
-      <div className='mt-2'>
+      <div className='mt-2 ml-6'>
         <p className='text-[16px] font-medium text-primary underline' >Load More</p>
       </div>
     </div>

@@ -22,6 +22,7 @@ module.exports = {
         darkBlueColor: "#1A194D",
         lightGray: "#62618F",
         borderColor: "#CBCBD9",
+        receiptshadowColor: "rgb(223, 223, 253, 0.6)",
       },
     },
   },

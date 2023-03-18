@@ -5,11 +5,11 @@ interface BillingSectionProps{
 }
 const BillingSection = ({title}:BillingSectionProps) => {
   return (
-    <div>
+    <div className='ml-6'>
       <h3 className="text-[16px] font-bold text-darkBlueColor">
         {title}
       </h3>
-      <p className="text-[14px] text-lightGray font-medium">
+      <p className="text-[14px] text-lightGray font-medium ">
         Manage billing information and receips
       </p>
     </div>
