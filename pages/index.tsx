@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="w-full h-screen md:py-10 md:px-3 lg:px-10 xl:px-14 xl:py-10 ">
+      <div className="w-full h-screen md:py-10 md:px-3 lg:px-4 xl:px-14 xl:py-10 ">
         {/* Heading */}
         <div className="mb-10 ml-6">
           <h1 className="text-[32px] font-bold">Billing</h1>
@@ -28,7 +28,7 @@ const Home: NextPage = () => {
                 <BillingSection title="Order History" />
               </div>
 
-              <div className=" md:w-[85%]   lg:w-[90%]  xl:w-[92%] xxl:w-[95%] xxxl:w-[97%] xxxxl:w-[95%]">
+              <div className=" md:w-[85%]   lg:w-[97%]  xl:w-[92%] xxl:w-[95%] xxxl:w-[97%] xxxxl:w-[98%]">
                 <ReceiptTable />
               </div>
             </div>
