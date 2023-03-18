@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const ProfileSection = () => {
   return (
@@ -13,6 +13,6 @@ const ProfileSection = () => {
       </div>
     </>
   );
-}
+};
 
-export default ProfileSection
+export default ProfileSection;

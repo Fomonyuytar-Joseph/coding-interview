@@ -3,7 +3,6 @@ import ProfileSection from "./ProfileSection";
 import SideBarLink from "./SideBarLink";
 
 const SideBar = () => {
-  const [toogleColor, setToggleColor] = useState<boolean>(true);
   const [active ,setActive]= useState(2)
 
   return (

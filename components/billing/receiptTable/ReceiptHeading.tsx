@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const ReceiptHeading = () => {
   return (
@@ -12,11 +12,8 @@ const ReceiptHeading = () => {
       <div className="col-span-4">
         <h3>Receipt</h3>
       </div>
-      
-
-
     </div>
   );
-}
+};
 
-export default ReceiptHeading
+export default ReceiptHeading;

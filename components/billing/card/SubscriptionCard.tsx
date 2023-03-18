@@ -1,5 +1,5 @@
-import React from 'react'
-import CancelButton from '../../buttons/CancelButton';
+import React from "react";
+import CancelButton from "../../buttons/CancelButton";
 
 const SubscriptionCard = () => {
   return (
@@ -19,6 +19,6 @@ const SubscriptionCard = () => {
       <CancelButton />
     </div>
   );
-}
+};
 
-export default SubscriptionCard
+export default SubscriptionCard;
