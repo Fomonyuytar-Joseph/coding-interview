@@ -4,7 +4,7 @@ const ProfileSection = () => {
   return (
     <>
       <div>
-        <img src="/woman.png" className="w-[55px] h-[55px]" />
+        <img src="/woman.png" className="    md:w-[40px] md:h-[40px]  xl:w-[55px] xl:h-[55px]" />
       </div>
 
       <div>

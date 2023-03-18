@@ -5,8 +5,8 @@ interface LayoutProps {
 }
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <div className="flex">
-      <div className="flex-1">
+    <div className="flex ">
+      <div className="flex-1 ">
         <SideBar />
       </div>
 

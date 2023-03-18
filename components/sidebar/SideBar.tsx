@@ -6,7 +6,7 @@ const SideBar = () => {
   const [active ,setActive]= useState(2)
 
   return (
-    <div className="flex flex-col justify-between    bg-purplishColor h-screen w-[260px] py-10 pl-4 ">
+    <div className="flex flex-col justify-between h-screen     bg-purplishColor md:[100px] lg:w-[170px] xl:w-[260px] py-10 pl-4 ">
       {/* top container */}
       <div className="flex flex-col gap-24">
         {/* user profile */}
