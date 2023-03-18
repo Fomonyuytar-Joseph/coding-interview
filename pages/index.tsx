@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="w-full h-screen px-14 py-10 ">
+      <div className="w-full h-screen md:py-10 md:px-3 lg:px-10 xl:px-14 xl:py-10 ">
         {/* Heading */}
         <div className="mb-10 ml-6">
           <h1 className="text-[32px] font-bold">Billing</h1>
@@ -28,7 +28,7 @@ const Home: NextPage = () => {
                 <BillingSection title="Order History" />
               </div>
 
-              <div className=" md:[70%]   lg:w-[88%]  xl:w-[92%] ">
+              <div className=" md:w-[85%]   lg:w-[90%]  xl:w-[92%] xxl:w-[95%] xxxl:w-[97%] xxxxl:w-[95%]">
                 <ReceiptTable />
               </div>
             </div>
@@ -39,7 +39,7 @@ const Home: NextPage = () => {
           </div>
 
           {/* Bottom section of page */}
-          <div className=" w-[90%] mt-9">
+          <div className=" w-[90%] xl:w-full mt-9">
             <BillingSection title="Payment Method" />
 
             <div className="flex justify-between items-center w-[70%] mt-4 ml-6">
